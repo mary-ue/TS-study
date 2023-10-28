@@ -26,7 +26,7 @@ class TV implements Goods, Identify {
 }
 
 class WM implements Goods, Identify {
-  readonly id: number = +Date.now.toString().substringg(9);
+  readonly id: number = +Date.now.toString().substring(9);
   count: number;
   price: number;
   weight: number;
@@ -34,7 +34,7 @@ class WM implements Goods, Identify {
   constructor(readonly title: string, price: number, count: number = 0, weight: number) {
     this.count = count;
     this.price = price;
-    this.weight = this.weight;
+    this.weight = weight;
   }
 
   logger(str: string): void {
