@@ -12,7 +12,7 @@ div(15, 4, true);
 div(15, 3);
 div(10, 2);
 
-type Student = {
+type Student1 = {
   firstname: string;
   lastname: string;
   age: number;
